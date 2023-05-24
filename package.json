@@ -1,0 +1,44 @@
+{
+	"name": "remix-starter",
+	"version": "1.0.0",
+	"private": true,
+	"sideEffects": false,
+	"scripts": {
+		"build": "remix build",
+		"deploy": "fly deploy --remote-only",
+		"dev": "remix dev",
+		"start": "remix-serve build",
+		"typecheck": "tsc"
+	},
+	"dependencies": {
+		"@remix-run/css-bundle": "^1.16.1",
+		"@remix-run/node": "^1.16.1",
+		"@remix-run/react": "^1.16.1",
+		"@remix-run/serve": "^1.16.1",
+		"clsx": "^1.2.1",
+		"isbot": "^3.6.10",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"tailwind-merge": "^1.12.0"
+	},
+	"devDependencies": {
+		"@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+		"@remix-run/dev": "^1.16.1",
+		"@remix-run/eslint-config": "^1.16.1",
+		"@tailwindcss/forms": "^0.5.3",
+		"@types/react": "^18.2.6",
+		"@types/react-dom": "^18.2.4",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.41.0",
+		"hex-rgb": "^5.0.0",
+		"postcss": "^8.4.23",
+		"postcss-100vh-fix": "^1.0.2",
+		"prettier": "^2.8.8",
+		"prettier-plugin-tailwindcss": "^0.3.0",
+		"tailwindcss": "^3.3.2",
+		"typescript": "^5.0.4"
+	},
+	"engines": {
+		"node": ">=14"
+	}
+}
