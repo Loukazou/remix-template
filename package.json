@@ -31,7 +31,7 @@
 		"autoprefixer": "^10.4.14",
 		"eslint": "^8.41.0",
 		"hex-rgb": "^5.0.0",
-		"postcss": "^8.4.23",
+		"postcss": "^8.4.31",
 		"postcss-100vh-fix": "^1.0.2",
 		"prettier": "^2.8.8",
 		"prettier-plugin-tailwindcss": "^0.3.0",
